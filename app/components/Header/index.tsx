@@ -23,7 +23,7 @@ const Header = () => {
   const { data: session } = useSession()
 
   return (
-    <header className="py-2 px-4 flex bg-white items-center bg-gradient-to-b from-white to-slate-100">
+    <header className="py-2 px-4 flex bg-white items-center bg-gradient-to-b from-white to-slate-100 sticky top-0 z-50">
       <Logo />
 
       <div className="flex items-center xl:min-w-[250px] mx-[20px]">

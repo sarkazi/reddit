@@ -1,6 +1,8 @@
+import Link from 'next/link'
+
 const Logo = () => {
   return (
-    <div className="flex items-center gap-x-2 cursor-pointer">
+    <Link href="/" className="flex items-center gap-x-2 cursor-pointer">
       <svg
         className="h-full w-[30px]"
         xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +31,7 @@ const Logo = () => {
           <path d="M7.68,6.53a1.19,1.19,0,0,0-1-1.18A4.56,4.56,0,0,0,2.39,6.91V6.75A1.2,1.2,0,0,0,0,6.75v9.77a1.23,1.23,0,0,0,1.12,1.24,1.19,1.19,0,0,0,1.26-1.1.66.66,0,0,0,0-.14v-5A3.62,3.62,0,0,1,5.81,7.7a4.87,4.87,0,0,1,.54,0h.24A1.18,1.18,0,0,0,7.68,6.53Z"></path>
         </g>
       </svg>
-    </div>
+    </Link>
   )
 }
 
